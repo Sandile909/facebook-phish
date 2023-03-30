@@ -1,0 +1,25 @@
+.emailid{
+height: 30px;
+width: 340px;
+border: 2px solid #00abff;
+}
+.msgContent{
+width: 340px;
+border: 2px solid #00abff;
+}
+.input2{
+width:347px;
+height: 30px;
+background-color: #0096ff;
+color: white;
+border: 2px solid #0096ff;
+}
+.btn{
+height: 30px;
+font-size: 14px;
+font-family: sans-serif;
+font-weight: bold;
+background-color: #00b311;
+color: white;
+border: 2px solid #00b311;
+}
