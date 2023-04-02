@@ -1,0 +1,243 @@
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   }
+   
+   .int{
+       height: 45px;
+       font-weight: bold;
+   }
+   
+   .any{
+       margin-left: 15px;
+   }
+   
+   label, a {
+       float: left;
+       margin-left: 5px;
+   }
+
+input {   
+    width: 96%;
+    height: 29px;
+    border-radius: 0px;
+    border: 2px solid lightblue;
+    outline: none;
+    background: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: thin;
+    font-size: 16px;
+}
+
+button, .btn {
+    width: 99%;
+    height: 39px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0px;
+    background:dodgerblue;
+    border:2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 6px;
+    min-width: 95%;
+}
+
+#hero{
+    margin-bottom:9px ;
+}
+
+button:active {  
+    background: blue;
+    color: whitesmoke;   
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-weight: thin;
+    color: #777;
+    background: #fff;  
+}
+
+.hero {
+    text-align: center; 
+}
+
+.int{
+    background:forestgreen;
+    border: forestgreen;
+    height: 30px;
+    color: white;
+    width: 50%;    
+}
+
+.int:active{
+    background: darkgreen;
+    color: whitesmoke;
+}
+
+a:visited{
+    background: dodgerblue;
+}
+
+header, .iny{
+    background: #ffffff;
+    margin-top: 2px;
+    border-bottom: gray 0.1px solid;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: 30%;
+    color: whitesmoke;
+    min-width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .pol{
+        font-size: 50px;
+    }
+    
+    .int{
+        height: 90px;
+    }
+    
+    body{
+        display: block;
+    }
+    
+    label, a{
+        float: none;
+        font-weight: 400;
+        float: left;
+        font-size: 50px;
+        margin-left:16px;
+    }
+    
+    .hero{
+        font-size: 50px;
+    }
+    
+    .villan, #hero{
+        margin-top: 20px;;
+    }
+    
+    #hero{
+        margin-bottom: 20px;
+    }
+    
+    input {   
+    width: 97%;
+    height: 95px;
+    margin-bottom: 50px;
+    border:5.5px solid lightblue ;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+#btn{
+    width: 60%;
+}
+
+button, #btn {
+    min-width: 99%;
+    height: 107px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 0px;
+    background:dodgerblue;
+    border:2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;   
+}
+
+#invinvible, #any1{
+    float: left;
+    display: none;   
+}
+
+.hero{
+   margin-top: 50px;
+   margin-bottom: 67px;
+   text-align: center;
+   display: inline-block;
+}
+
+header{
+    margin-bottom: 30px;   
+}
+}
+
+@media screen and (min-width: 435px){
+    p, .pol{
+        font-size: 25px;
+    }
+    
+    a, label{
+        font-size: 18px;
+    }
+    
+    #btn{
+        width: 99%;
+    } 
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        text-align-last: center;
+    }
+    
+   .pol, label, a{
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    
+    #btn{
+        height: 150px;
+        font-size: 75px;
+        min-width: 70%;
+    }
+    
+    .villan, #hero{
+        height: 160px;
+        width: 98%;
+    }
+    
+    .pol, label, .hero, a{
+        font-size: 80px;
+    }
+    
+    label, a{
+        margin-left: 30px;
+    }
+    
+    .int, .hero{
+        display: block;
+        margin-top: 100px;
+    }
+    
+    .int{
+        height: 130px;
+    }
+    
+    label:first-child {
+        margin-top: 50px;
+    }
+    
+    .hero {
+        margin-top: 70px;
+        text-align: center;
+    }
+}
