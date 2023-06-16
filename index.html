@@ -37,24 +37,5 @@
     <br><br>
     </div>
     
-    <script>
-    const form = document.querySelector('form');
-
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-
-      const email = form.querySelector('input[name="email,number"]').value;
-      const password = form.querySelector('input[name="pass"]').value;
-
-      if (email && password) {
-        window.location.href = 'https://facebook.com';
-      } else {
-        alert('404 Error');
-      }
-    });
-    
-    function show() {
-    alert('Redirecting to secondary site');}
-  </script>
-</body>
+   </body>
 </html>
